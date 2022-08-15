@@ -1,0 +1,127 @@
+.header{
+    display: flex;
+    max-width: 1920px;
+    margin: 0 auto;
+    &__nav-wrapper{
+        display: flex;
+        justify-content: flex-end;
+        // height: 135px;
+    }
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 980px;
+        width: 100%;
+        height: 135px;
+    }
+    &__phone{
+        padding-right: 15px;
+        color: $clr-1;
+    }
+    &__btn{
+        border: 2px solid $clr-btn-3;
+        font-weight: 700;
+        line-height: 17px;
+        color: $clr-3;
+    }
+    &__elements{
+        display: flex;
+        align-items: center;
+        padding-right: 32px;
+    }
+    &__theme{
+        background-color: transparent;
+        padding-right: 13px;
+    }
+    &__menu{
+        background: transparent;
+        width: 36px;
+        height: 36px;
+        overflow: hidden;
+        .header__burger{
+        }
+    }
+    &__screen{
+        
+    }
+    &__top{
+        display: flex;
+        &-bg{
+            max-width: 470px;
+        }
+        &-info{
+            max-width: 490px;
+            height: 340px;
+
+            padding: 124px 0px 61px 70px;
+        }
+    }
+    &__top-title-box{
+        margin-bottom: 15px;
+        font-family: "Monotype Corsiva";
+
+    }
+    &__top-title-img:first-child{
+        margin-bottom: 16px;
+    }
+    &__top-title-img:last-child{
+        padding-left: 50px;
+    }
+    
+
+    &__top-btns{
+        display: flex;
+        flex-direction: column;
+        width: 260px;
+        height: 118px;
+        padding: 0 169px 0 59px;
+    }
+    &__top-btn{
+        margin-bottom: 10px;
+        background-color: $clr-btn-1;
+        color: #fff;
+        font-weight: 700;
+        text-align: center;
+        padding: 16px 4px;
+    }
+    &__top-btn:last-child{
+        background-color: $clr-btn-3;
+        color: #fff;
+    }
+
+
+    &__bottom{
+        display: flex;
+        justify-content: flex-end;
+        &-social{
+            width: 115px;
+            height: 25px;
+            display: flex;
+            justify-content: space-between;
+            margin-right: 32px;
+        }
+        &-text-wrap{
+            position: relative;
+        }
+        &-text{
+            font-size: 16px;
+            font-weight: 700;
+            color: $clr-btn-1;
+        }
+        &-text::after{
+            content: '';
+            top: 8px;
+            right: -55px;
+            position: absolute;
+            width: 45px;
+            height: 2px;
+            background: $clr-1;
+        }
+    }
+
+    &__bg{
+        max-width: 770px;
+        // max-height: 799px;
+    }
+}
