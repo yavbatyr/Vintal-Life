@@ -12,9 +12,6 @@
         text-align: center;
     }
     &__title{
-        font-family: 'Monotype Corsiva';
-        font-size: 40px;
-        line-height: 105%;
         color: $clr-2;
         margin-bottom: 5px;
     }
@@ -55,5 +52,35 @@
             font-weight: 700;
             margin-bottom: 5px;
         }
+    }
+}
+
+.brands{
+    &__inner{
+        padding-top: 100px;
+    }
+    &__title{
+        color: $clr-1;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    &__items{
+        display: flex;
+        margin-bottom: 50px;
+        border: 1px solid rgba(45, 45, 45, 0.5);
+    }
+    &__item{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 250px;
+        height: 250px;
+        justify-content: center;
+    }
+    &__item + &__item{
+        border-left: 1px solid rgba(45, 45, 45, 0.5);
+    }
+    &__item:nth-child(even){
+        background-color: #f4f4f4;
     }
 }
