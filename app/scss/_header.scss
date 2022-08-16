@@ -43,7 +43,7 @@
         }
     }
     &__screen{
-        
+        position: relative;
     }
     &__top{
         display: flex;
@@ -120,6 +120,11 @@
         }
     }
 
+    &__absolute{
+        top: -70px;
+        right: -193px;
+    }
+
     &__bg{
         max-width: 770px;
         // max-height: 799px;
@@ -127,10 +132,10 @@
 }
 
 .benefits{
-    height: 160px;
     display: flex;
     align-items: center;
-    margin: 0 auto;
+    height: 225px;
+    position: relative;
     &__box{
         display: flex;
     }
@@ -170,5 +175,9 @@
     &__date{
         font-size: 16px;
         line-height: 105%;
+    }
+    &__absolute{
+        top: -206px;
+        left: -44px;
     }
 }
