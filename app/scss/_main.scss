@@ -1,0 +1,59 @@
+.request{
+    background: url('../images/request-bg.jpg') ;
+    // filter: brightness(.5);
+    height: 277px;
+    &__bg{
+        background: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        
+    }
+    &__box{
+        padding-top: 54px;
+        text-align: center;
+    }
+    &__title{
+        font-family: 'Monotype Corsiva';
+        font-size: 40px;
+        line-height: 105%;
+        color: $clr-2;
+        margin-bottom: 5px;
+    }
+    &__text{
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 25px;
+        color: $clr-2;
+        margin-bottom: 40px;
+    }
+    &__form{
+        max-width: 1500px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        &-item{
+            cursor: pointer;
+            max-width: 460px;
+            width: 100%;
+            height: 60px;
+            font-size: 16px;
+        }
+        &-item{
+            
+            &-wrap{
+                display: flex;
+                flex-direction: column;
+                color: $clr-2;
+            }
+        }
+        #request-name,
+        #request-number{
+            padding-left: 30px;
+        }
+        #request-btn{
+            background: $clr-btn-2;
+            color: $clr-2;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+    }
+}
