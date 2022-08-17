@@ -87,6 +87,7 @@
 
 .feedback{
     padding-top: 50px;
+    margin-bottom: 50px;
     position: relative;
     &__inner{
         display: flex;
@@ -148,6 +149,71 @@
         position: absolute;
         top: 362px;
         left: -20px;
+        z-index: -1;
+        height: 538px;
+        width: 565px;
+    }
+}
+
+.location{
+    padding-top: 50px;
+    position: relative;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__box{
+        padding-top: 54px;
+
+    }
+    &__title{
+        width: 450px;
+    }
+    &__text{
+        font-weight: 500;
+        font-size: 25px;
+        margin-bottom: 40px;
+        width: 580px;
+    }
+    &__address-title{
+        margin-bottom: 9px;
+        font-weight: 500;
+        font-size: 25px;
+    }
+    &__address-text{
+        margin-bottom: 40px;
+        font-size: 16px;
+    }
+    &__item{
+        margin-bottom: 20px;
+    }
+    &__item:last-child{
+        padding-top: 20px;
+        margin-bottom: 67px;
+    }
+    &__address-btn{
+        margin-bottom: 13px;
+        background: $clr-btn-1;
+        color: $clr-2;
+        font-weight: 700;
+        line-height: 17px;
+        &-text{
+            font-size: 16px;
+            opacity: .5;
+        }
+    }
+    &__phrase{
+        font-family: 'Monotype Corsiva';
+        font-style: italic;
+        font-size: 25px;
+        letter-spacing: 0.11em;
+        color: $clr-1;
+        opacity: 0.5;
+    }
+    &__absolute{
+        position: absolute;
+        top: 436px;
+        right: -25px;
         z-index: -1;
     }
 }
