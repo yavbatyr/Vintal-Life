@@ -84,3 +84,70 @@
         background-color: #f4f4f4;
     }
 }
+
+.feedback{
+    padding-top: 50px;
+    position: relative;
+    &__inner{
+        display: flex;
+
+    }
+    &__box{
+        text-align: start;
+        padding-right: 35px;
+    }
+    &__title,
+    &__text{
+        color: $clr-1;
+        
+    }
+    &__text{
+        width: 495px;
+    }
+    &__form{
+        flex-direction: column;
+        margin-bottom: 85px;
+        &-item{
+            background-color: transparent;
+            border: 1px solid #2D2D2D;
+            margin-bottom: 23px;
+            &-wrap{
+                color: $clr-1;
+            }
+        }
+    }
+    &__phrase{
+        font-size: 23px;
+        letter-spacing: 0.11em;
+        color: $clr-1;
+        opacity: .5;
+        font-family: 'Monotype Corsiva';
+        font-style: italic;
+    }
+
+    &__gallery{
+        overflow: hidden;
+        &-item-wrap{
+            display: grid;
+            grid-template-columns: 310px minmax(300px, 600px);
+            grid-template-rows: 306px 305px;
+            
+        }
+        &-item{
+            object-fit: contain;
+        }
+    }
+
+    &__absolute-top{
+        position: absolute;
+        top: -249px;
+        right: -80px;
+        z-index: -1;
+    }
+    &__absolute-bottom{
+        position: absolute;
+        top: 362px;
+        left: -20px;
+        z-index: -1;
+    }
+}
