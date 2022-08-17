@@ -1,0 +1,40 @@
+.footer{
+    background: $clr-1;
+    height: 220px;
+    padding-top: 56px;
+    &__menu{
+        display: flex;
+        align-items: center;
+        margin-bottom: 56px;
+    }
+    &__feedback{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 100px;
+    }
+    &__phone{
+        color: $clr-2;
+        white-space: nowrap;
+    }
+    &__btn{
+        color: $clr-2;
+        border: solid 2px $clr-btn-4;
+    }
+    &__copy{
+        display: flex;
+        justify-content: center;
+        color: $clr-2;
+        opacity: .5;
+    }
+}
+
+.menu__list{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    &-link{
+        color: $clr-2;
+    }
+}

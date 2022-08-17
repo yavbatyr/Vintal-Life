@@ -21,7 +21,7 @@
         color: $clr-1;
     }
     &__btn{
-        border: 2px solid $clr-btn-3;
+        border: 2px solid $clr-btn-2;
         font-weight: 700;
         line-height: 17px;
         color: $clr-3;
@@ -37,10 +37,28 @@
     }
     &__menu{
         background: transparent;
-        width: 36px;
-        height: 36px;
-        overflow: hidden;
-        .header__burger{
+        position: relative;
+        .menu__list{
+            width: 202px;
+            height: 382px;
+            &-link:first-child{
+                display: none;
+            }
+        }
+        &-list{
+            background-color: $clr-1;
+            position: absolute;
+            top: -50px;
+            right: -47px;
+            display: flex;
+            flex-direction: column;
+            padding: 53px 37px;
+            transform: translateY(-500px);
+            transition: .4s;
+            z-index: 2;
+        }
+        &-list--active{
+            transform: translateY(0);
         }
     }
     &__screen{
