@@ -1,0 +1,38 @@
+.swiper{
+    width: 1440px;
+    height: 600px;
+    margin: 0 auto;
+}
+.swiper-wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+.swiper .swiper-slide{
+    width: 460px;
+}
+
+.swiper-button-next::after,                        
+.swiper-button-prev::after{
+    display: none;
+}                       
+
+.swiper-buttons{
+    position: relative;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    top: 280px !important;
+    background-image: url('../images/arrow.svg');
+    width: 60px !important;
+    height: 60px !important;
+    background-color: transparent;
+}
+
+.swiper-button-prev{
+    transform: rotate(180deg);
+    left: -90px !important;
+}
+.swiper-button-next{
+    right: -90px !important;
+}

@@ -1,3 +1,18 @@
+.catalog{
+    margin-bottom: 100px;
+    position: relative;
+    &__title{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    &__absolute{
+        position: absolute;
+        top: 0px;
+        right: -95px;
+        z-index: -1;
+    }
+}
+
 .request{
     background: url('../images/request-bg.jpg') ;
     // filter: brightness(.5);

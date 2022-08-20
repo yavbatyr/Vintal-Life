@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/null.style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -113,9 +114,34 @@
         <img class="benefits__absolute absolute" src="images/absolute.png" alt="absolute">
     </section>
     <main class="main">
-        <!-- <section class="catalog">
-                                                            СЛАЙДЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕР
-        </section> -->
+        <section class="catalog">
+            <div class="container">
+                <!-- Slider main container -->
+                <h5 class="catalog__title title">Каталог кухонь по стилям</h5>
+                <div class="swiper-buttons">
+                    <button class="swiper-button-next"></button>
+                    <button class="swiper-button-prev"></button>
+                </div>
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="images/slider-1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="images/slider-2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="images/slider-3.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="images/slider-1.jpg" alt=""></div>
+                        ...
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    
+                        <!-- If we need navigation buttons -->
+                        <!-- If we need scrollbar -->
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+            </div>
+            <img class="catalog__absolute" src="images/catalog-absolute.png" alt="" >
+        </section>
         <section class="request">
             <div class="request__bg">
                 <div class="container">
@@ -249,5 +275,7 @@
         </div>
     </footer>
     <script src="js/main.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
 </body>
 </html>
