@@ -1,6 +1,6 @@
 const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
-  loop: true,
+  loop: false,
   autoHeight: true,
   edgeSwipeDetection: 'false',
   effect: 'slide',
