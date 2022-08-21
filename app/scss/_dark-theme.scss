@@ -1,0 +1,78 @@
+body.dark--theme{
+    --text-color: #fff;
+    --bkg-color: #0f0f0f;
+    --anchor-color: #fff;
+    --icon-color: #fff;
+}
+body{
+    color: var(--text-color);
+    background-color: var(--bkg-color);
+}
+.dark--theme a{
+    color: var(--anchor-color);
+}
+
+.header__top-title-img-dark{
+    display: none;
+}
+.header__top-title-img-dark.dark--theme{
+    display: block;
+    margin-bottom: 16px;
+}
+.header__top-title-img-dark:last-child{
+    padding-left: 50px;
+}
+.header__top-title-img.dark--theme{
+    display: none;
+}
+
+
+//абсолютки
+.header__absolute-dark,
+.benefits__absolute-dark,
+.catalog__absolute-dark,
+.feedback__absolute-top-dark,
+.feedback__absolute-bottom-dark,
+.location__absolute-dark,
+//лого
+.header__logo-dark,
+//burger
+.header__burger-dark{
+    display: none;
+}
+
+.absolute.dark--theme,
+.header__logo.dark--theme,
+.header__burger.dark--theme{
+    display: none;
+}
+
+.header__absolute-dark.dark--theme,
+.benefits__absolute-dark.dark--theme,
+.catalog__absolute-dark.dark--theme,
+.feedback__absolute-top-dark.dark--theme,
+.feedback__absolute-bottom-dark.dark--theme,
+.location__absolute-dark.dark--theme,
+.header__logo-dark.dark--theme,
+.header__burger-dark.dark--theme{
+    display: block;
+}
+
+
+.header_theme-icon circle.dark--theme{
+    fill: #fff;
+}
+
+.header__btn.dark--theme{
+    border: 2px solid var(--text-color);
+    color: var(--text-color);
+}
+
+
+.header__bottom-text.dark--theme::after{
+    background: var(--text-color);
+}
+
+.dark--theme::after{
+    background-color: #fff;
+}

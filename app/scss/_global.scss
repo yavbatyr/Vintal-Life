@@ -40,3 +40,21 @@ body{
     position: absolute;
     z-index: -1;
 }
+
+body.dark--theme{
+    --text-color: #fff;
+    --bkg-color: #0f0f0f;
+    --anchor-color: #fff;
+}
+body{
+    color: var(--text-color);
+    background-color: var(--bkg-color);
+}
+a{
+    color: var(--anchor-color);
+}
+
+.header__top-title-img.dark--theme{
+
+}
+

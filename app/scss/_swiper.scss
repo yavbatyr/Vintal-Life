@@ -14,17 +14,37 @@
 .swiper-slide img{
     filter: brightness(.7);
 }
+.slider-title-wrapper img:hover{
+    filter: brightness(.3);
+}
 .slider-title-wrapper{
     width: 100%;
-    height: 100%;
+    height: 150%;
     position: absolute;
     top: 0;
+    transition: .4s;
 }
+.slider-title-wrapper:hover{
+    top: -130px;
+}
+
+
 .slider-title{
     color: $clr-2;
     text-align: center;
     padding-top: 50%;
     word-spacing: 8.888px;
+    font-size: 50px;
+}
+.slider-subtitle{
+    color: $clr-2;
+    text-align: center;
+    position: absolute;
+    bottom: 240px;
+    left: 22%;
+    word-spacing: 8.888px;
+    font-weight: 600;
+    font-size: 25px;
 }
 
 .swiper-button-next::after,                        

@@ -5,11 +5,10 @@
         text-align: center;
         margin-bottom: 40px;
     }
-    &__absolute{
-        position: absolute;
+    &__absolute,
+    &__absolute-dark{
         top: 0px;
         right: -95px;
-        z-index: -1;
     }
 }
 
@@ -154,17 +153,15 @@
         }
     }
 
-    &__absolute-top{
-        position: absolute;
+    &__absolute-top,
+    &__absolute-top-dark{
         top: -249px;
         right: -80px;
-        z-index: -1;
     }
-    &__absolute-bottom{
-        position: absolute;
+    &__absolute-bottom,
+    &__absolute-bottom-dark{
         top: 362px;
         left: -20px;
-        z-index: -1;
         height: 538px;
         width: 565px;
     }
@@ -226,10 +223,9 @@
         color: $clr-1;
         opacity: 0.5;
     }
-    &__absolute{
-        position: absolute;
+    &__absolute,
+    &__absolute-dark{
         top: 436px;
         right: -25px;
-        z-index: -1;
     }
 }
