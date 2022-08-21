@@ -40,4 +40,4 @@ const swiper = new Swiper('.swiper', {
     hashNavigation:{
       watchState: true,
     }
-  });  
+  });

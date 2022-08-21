@@ -59,14 +59,13 @@
 .swiper-button-next,
 .swiper-button-prev{
     top: 280px !important;
-    background-image: url('../images/arrow.svg');
+    // background-image: url('../images/arrow.svg');
     width: 60px !important;
     height: 60px !important;
     background-color: transparent;
 }
 
 .swiper-button-prev{
-    transform: rotate(180deg);
     left: -90px !important;
 }
 .swiper-button-next{

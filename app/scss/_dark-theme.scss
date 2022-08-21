@@ -60,7 +60,7 @@ body{
 
 
 .header_theme-icon circle.dark--theme{
-    fill: #fff;
+    fill: var(--icon-color);
 }
 
 .header__btn.dark--theme{
@@ -74,5 +74,19 @@ body{
 }
 
 .dark--theme::after{
-    background-color: #fff;
+    background-color: var(--text-color);
+}
+
+.title.dark--theme,
+.subtitle.dark--theme,
+.feedback__text.dark--theme,
+.phrase.dark--theme,
+.feedback__form-item.dark--theme,
+label.dark--theme{
+    color: var(--text-color);
+}
+
+.location__address-btn-text.dark--theme{
+    color: var(--text-color);
+    opacity: 1;
 }
