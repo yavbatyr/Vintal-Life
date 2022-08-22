@@ -68,6 +68,15 @@ body{
     color: var(--text-color);
 }
 
+.header__btn.dark--theme:hover{
+    border-color: $clr-btn-2;
+}
+.header__btn.dark--theme:active{
+    border-color: #000;
+    transition: .3s;
+}
+
+
 
 .header__bottom-text.dark--theme::after{
     background: var(--text-color);
@@ -86,7 +95,19 @@ label.dark--theme{
     color: var(--text-color);
 }
 
+.brands__item:nth-child(odd).dark--theme{
+    opacity: .888;
+    background-color: #fff;
+}
+
 .location__address-btn-text.dark--theme{
     color: var(--text-color);
     opacity: 1;
+}
+
+.swiper-button-prev.dark--theme:hover path{
+    fill: #ddd !important;
+}
+.swiper-button-next.dark--theme:hover path{
+    fill: #ddd !important;
 }

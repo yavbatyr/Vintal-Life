@@ -26,6 +26,16 @@
         line-height: 17px;
         color: $clr-3;
     }
+    &__btn:hover{
+        background-color: $clr-btn-2;
+        color: $clr-2;
+        border-color: $clr-btn-2;
+    }
+    
+    &__btn:active{
+        background-color: #000;
+        color: $clr-2;
+    }
     &__elements{
         display: flex;
         align-items: center;
@@ -33,7 +43,7 @@
     }
     &__theme{
         background-color: transparent;
-        padding-right: 13px;
+        padding: 3px 13px 0 0;
     }
     &__menu{
         background: transparent;
@@ -104,11 +114,28 @@
         text-align: center;
         padding: 16px 4px;
     }
+    &__top-btn:hover{
+        background-color: $clr-btn-3;
+        color: $clr-2;
+    }
+    
+    &__top-btn:active{
+        background-color: #000;
+        color: $clr-2;
+    }
     &__top-btn:last-child{
         background-color: $clr-btn-3;
         color: #fff;
     }
-
+    &__top-btn:last-child:hover{
+        background-color: $clr-btn-1;
+        color: #fff;
+    }
+    &__top-btn:last-child:active{
+        background-color: #000;
+        color: #fff;
+    }
+    
 
     &__bottom{
         display: flex;

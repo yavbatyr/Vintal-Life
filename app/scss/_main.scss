@@ -66,6 +66,9 @@
             font-weight: 700;
             margin-bottom: 5px;
         }
+        #request-btn:hover{
+            background: #000;
+        } 
     }
 }
 
@@ -214,6 +217,12 @@
             font-size: 16px;
             opacity: .5;
         }
+    }
+    &__address-btn:hover{
+        background: $clr-btn-3;
+    }
+    &__address-btn:active{
+        background: #000;
     }
     &__phrase{
         font-family: 'Monotype Corsiva';

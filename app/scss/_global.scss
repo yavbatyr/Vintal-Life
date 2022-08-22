@@ -13,7 +13,9 @@
     width: 260px;
     height: 54px;
     background-color: transparent;
+    transition: .4s;
 }
+
 
 input{
     margin: 0;
@@ -41,20 +43,4 @@ body{
     z-index: -1;
 }
 
-body.dark--theme{
-    --text-color: #fff;
-    --bkg-color: #0f0f0f;
-    --anchor-color: #fff;
-}
-body{
-    color: var(--text-color);
-    background-color: var(--bkg-color);
-}
-a{
-    color: var(--anchor-color);
-}
-
-.header__top-title-img.dark--theme{
-
-}
 
