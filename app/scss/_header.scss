@@ -2,6 +2,7 @@
     display: flex;
     max-width: 1920px;
     margin: 0 auto;
+    margin-bottom: 50px;
     &__nav-wrapper{
         display: flex;
         justify-content: flex-end;
@@ -29,7 +30,6 @@
     &__btn:hover{
         background-color: $clr-btn-2;
         color: $clr-2;
-        border-color: $clr-btn-2;
     }
     
     &__btn:active{
@@ -73,6 +73,9 @@
     }
     &__screen{
         position: relative;
+        &-feedback{
+            display: none;
+        }
     }
     &__top{
         display: flex;
@@ -135,7 +138,9 @@
         background-color: #000;
         color: #fff;
     }
-    
+    &__top-nav{
+        display: none;
+    }
 
     &__bottom{
         display: flex;
@@ -146,6 +151,9 @@
             display: flex;
             justify-content: space-between;
             margin-right: 32px;
+        }
+        &-social-dark{
+            display: none;
         }
         &-text-wrap{
             position: relative;
@@ -181,8 +189,9 @@
 .benefits{
     display: flex;
     align-items: center;
-    height: 225px;
+    max-height: 225px;
     position: relative;
+    margin-bottom: 50px;
     &__box{
         display: flex;
     }

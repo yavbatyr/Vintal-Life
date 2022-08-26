@@ -13,7 +13,7 @@
 }
 
 .request{
-    background: url('../images/request-bg.jpg') ;
+    background: url('../images/request-mobile.jpg') ;
     // filter: brightness(.5);
     height: 277px;
     &__bg{
@@ -141,6 +141,9 @@
         opacity: .5;
         font-family: 'Monotype Corsiva';
         font-style: italic;
+        &_bottom{
+            display: none;
+        }
     }
 
     &__gallery{
@@ -180,7 +183,7 @@
     }
     &__box{
         padding-top: 54px;
-
+        width: 100%;
     }
     &__title{
         width: 450px;
@@ -199,6 +202,9 @@
     &__address-text{
         margin-bottom: 40px;
         font-size: 16px;
+    }
+    &__address-map{
+        display: none;
     }
     &__item{
         margin-bottom: 20px;

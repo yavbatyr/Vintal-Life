@@ -15,7 +15,15 @@ const swiper = new Swiper('.swiper', {
   slidesPerView: 3,
   slideToClickedSlide: true,
   spaceBetween: 50,
-  
+  breakpoints: {
+    1440:{
+      loop: false,
+    },
+    834:{
+      spaceBetween: 15,
+      loop: true
+    }
+  },
     // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',
